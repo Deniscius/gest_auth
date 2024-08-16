@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inscription</title>
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
-</head>
+</head> 
 
 <body>
     <form action="{{ route('registration.process') }}" method="POST" class="registration-form">

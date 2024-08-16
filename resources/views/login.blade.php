@@ -13,7 +13,7 @@
     <div class="container">
         <form action="{{ route('login.process') }}" method="POST" class="login-form">
             @csrf
-            <h1 class="form-title">Connection</h1>
+            <h1 class="form-title">Connexion</h1>
 
             @if ($errors->any())
                 <ul class="alert alert-danger">
